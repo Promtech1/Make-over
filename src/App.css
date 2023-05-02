@@ -8,23 +8,24 @@
 .App{
   display: flex;
   flex-direction: column;
+  padding-bottom: 30em;
 }
 ::-webkit-scrollbar{
   height: 12px;
   width: 12px;
-  }
+}
   
-  ::-webkit-scrollbar-track{
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 1ex;
-  }
-  
-  ::-webkit-scrollbar-thumb{
-  background: skyblue;
-  border-radius: 1ex;
-  }
+::-webkit-scrollbar-track{
+background: rgba(255, 255, 255, 0.2);
+border-radius: 1ex;
+}
 
-  a{
-    text-decoration: none;
-    color: inherit
-  }
+::-webkit-scrollbar-thumb{
+background: skyblue;
+border-radius: 1ex;
+}
+
+a{
+  text-decoration: none;
+  color: inherit
+}
